@@ -1,0 +1,78 @@
+* {box-sizing: border-box}
+body {font-family: EB Garamond, sans-serif;}
+
+#logo{
+  height:120px;
+  padding: 10px;
+}
+.a{
+  color: black;
+}
+.navbar {
+  width: 100%;
+  overflow: auto;
+  text-decoration-color: black;
+}
+
+.navbar a {
+  float: left;
+  padding: 5px;
+  text-decoration: none;
+  font-size: 17px;
+  width: 14%; /* Four links of equal widths */
+  text-align: center;
+}
+
+
+/*.navbar a.active {
+  background-color: #4CAF50;
+}*/
+.navbar input[type=text] {
+    border: 1px solid #ccc;
+  }
+
+@media screen and (max-width: 500px) {
+  .navbar a {
+    float: none;
+    display: block;
+    width: 100%;
+    text-align: left;
+  }
+  .form button{
+    flex: 100%;
+    width: 100%;
+    padding: 30px;
+    background-color: blue;
+  }
+}
+
+.fa {
+  padding: 20px;
+  font-size: 50px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+  margin: 2px 2px 2px;
+  border-radius: 50%;
+}
+.fa-pinterest {
+  background: #78a4ac;
+  color: white;
+}
+.fa-instagram {
+  background: #78a4ac;
+  color: white;
+}
+.fa-twitter {
+  background: #78a4ac;
+  color: white;
+}
+.fa-youtube {
+  background:#78a4ac;
+  color: white;
+}
+
+#Registrieren_button{
+  background-color: #78a4ac; 
+  color: white;
+}
